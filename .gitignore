@@ -1,1 +1,6 @@
 /.project
+/controllers/pix/js/jquery.js
+/controllers/pix/js/node_modules
+/controllers/nukebox/jquery.js
+/controllers/playhouse/common/js/jquery.js
+/modules/GygDatabase/database.sqlite
