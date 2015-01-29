@@ -1,0 +1,132 @@
+.projectPreview
+{
+	padding: 1em;
+	margin-bottom: 1rem;
+	background-color: #171717;
+}
+
+.projectPreview h2
+{
+	margin: 0;
+	font-size: 2em;
+}
+
+.projectPreview h2 a
+{	
+	border: none;
+	font-style: normal;
+}
+
+.projectPreview p
+{
+	margin: 0;
+}
+
+.projectPreview #project-admin
+{
+	overflow: visible;
+}
+
+#project-preview-left
+{
+	float: left;
+}
+
+#project-stable-indicator
+{
+}
+
+#project-preview
+{
+	width: 100%;
+}
+
+#project-header
+{
+	text-align: center;
+}
+
+
+
+#project #project-admin
+{
+	overflow: auto;
+}
+
+
+#project-admin a
+{
+	float: right;
+	font-size: small;
+	margin-left: 1em;
+	margin-right: 0em;
+}
+
+
+
+#project-title
+{
+	overflow: visible;
+}
+
+
+
+#project-description
+{
+	font-style: italic;
+	margin-bottom: 1.5em;
+}
+
+
+
+#project-codeNotice 
+{
+	font-size: 0.7em;
+	border: 2px ridge #636363;
+	display: inline-block;
+	padding: 0.5em;
+}
+
+
+
+#project-contributors
+{
+	font-size: 0.7em;
+}
+
+#project-thumbnail
+{
+	float: right;
+}
+
+#project-image
+{
+	position: absolute;
+}
+
+#project-data
+{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	text-align: left;
+}
+
+
+
+#project-subtitle
+{
+	font-size: 0.6em;
+	margin-bottom: 1em;
+}
+
+#project #project-subtitle
+{
+	margin: 0;
+	margin-top: 1em;
+}
+
+
+#project-updated
+{
+	float: left;
+}

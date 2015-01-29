@@ -1,0 +1,47 @@
+/* Define html5 elements
+--------------------------------------------------------
+*/
+@import url("/getyourgame/file/gyg/style/leftWrapper.css");
+@import url("/getyourgame/file/gyg/style/centerWrapper.css");
+@import url("/getyourgame/file/gyg/style/rightWrapper.css");
+@import url("/getyourgame/file/gyg/style/header.css");
+@import url("/getyourgame/file/gyg/style/above.css");
+@import url("/getyourgame/file/gyg/style/menu.css");
+@import url("/getyourgame/file/gyg/style/content.css");
+@import url("/getyourgame/file/gyg/style/contentNav.css");
+@import url("/getyourgame/file/gyg/style/footer.css");
+
+
+
+header,footer,nav,article,section,
+aside,figure,figcaption,output{display:block;}
+
+/* Class definitions */
+.left{float: left;}
+.right{float: right;}
+
+/* General */
+html 
+{
+	background: #D6D6C2;
+	overflow-y: scroll;
+}
+
+body 
+{
+  margin: 0;
+  font-family: Georgia, serif;
+}
+
+h1 
+{
+  text-transform: uppercase;
+  border-bottom: 4px double #333333;
+}
+
+
+
+
+
+
+

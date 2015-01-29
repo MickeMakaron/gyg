@@ -1,0 +1,9 @@
+#content
+{
+	font-family:"Arial Black", Gadget, sans-serif;
+}
+
+/* add common padding to main content block */
+#content{overflow:auto;} /* clearer-fix, see the guide for css20 */
+
+#content figure{float: right;}

@@ -1,0 +1,99 @@
+.post
+{
+	padding: 1em;
+	margin-bottom: 1rem;
+	background-color: #171717;
+	overflow: visible;
+}
+
+#content
+{
+	overflow: visible;
+}
+
+#post-data img
+{
+	max-width: 80%;
+	max-height: 600px;
+}
+
+.image-wrapper
+{
+	margin: 0;
+	text-align: center;
+}
+
+
+
+.post a
+{
+	color: #EB941D;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.post a:hover{color: #E8B979; text-decoration: underline;}
+
+.post h2
+{
+	margin: 0;
+	font-size: 2em;
+}
+
+.post h2 a
+{
+	border: none;
+	font-style: normal;
+}
+
+#contentWrapper
+{
+	overflow: visible;
+}
+
+
+#post-thumbnail
+{
+	position: relative;
+	overflow: visible;
+	float: right;
+}
+
+#post-thumbnail div
+{
+    background-color: #171717;
+    border-radius: 100%;
+    left: -10px;
+    padding: 4px 4px 0;
+    position: absolute;
+    top: -28px;
+}
+
+
+#post-subtitle
+{
+	font-size: 0.6em;
+}
+
+#post-subtitle p
+{
+	margin: 0;
+}
+
+#post-admin
+{
+	overflow: visible;
+}
+
+#post-admin a
+{
+	float: right;
+	font-size: small;
+	margin-left: 1em;
+	margin-right: 0em;
+}
+
+#post-data
+{
+	margin-top: 1em;
+}

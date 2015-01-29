@@ -1,0 +1,35 @@
+#project-form  textarea
+{
+	width: 99%;
+	background: none;
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	border: none;
+	margin: 0px;
+	resize: none;
+	
+	color: #e8e8e8;
+}
+
+#project-form  textarea:focus
+{
+	border: thin dotted #636363;
+	
+	/*
+	 * Adjust margin to prevent the border from moving the div around.
+	 */
+	margin: -1px;
+}
+
+#project-form-title
+{
+	font-size: 1em;
+	font-weight: bold;
+	color: #eb941d !important;
+}
+
+#project-form-title, 
+#project-form-description,
+#project-form-contributors
+{
+	text-align: center;
+}

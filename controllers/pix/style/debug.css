@@ -1,0 +1,6 @@
+@import url("stylesheet.css"); 
+
+body{background: beige;}
+header#top{background: blueviolet;}
+header#top img{float: right;}
+header#top p{float: right;}

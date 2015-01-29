@@ -1,0 +1,94 @@
+/* Define html5 elements
+--------------------------------------------------------
+*/
+
+@import url("/file/playhouse/style/above.css");
+
+@import url("/file/playhouse/style/wrapper.css");
+
+@import url("/file/playhouse/style/speechBubble.css");
+@import url("/file/playhouse/style/header.css");
+
+@import url("/file/playhouse/style/menu.css");
+
+@import url("/file/playhouse/style/footer.css");
+
+
+@import url("/file/playhouse/style/login.css");
+
+
+header,footer,nav,article,section,
+aside,figure,figcaption,output{display:block;}
+
+/* Class definitions */
+.shadow
+{
+	-webkit-box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.75);
+}
+
+.playhouseLink a
+{
+	color: #EB941D;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.playhouseLink a:hover
+{
+	color: #E8B979; 
+	text-decoration: underline;
+}
+
+/* General */
+html 
+{
+	background: #171717;
+	/*
+	font-family: Tahoma, Verdana, Segoe, sans-serif; 
+	*/
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: #E8E8E8;
+	overflow-y: scroll;
+}
+
+
+@media all and (max-device-width: 600px) 
+{
+	html
+	{
+		font-size: 4vw;
+	}
+}
+
+
+body 
+{
+	margin: 0;
+}
+
+div
+{
+	overflow: auto;
+}
+
+#contentWrapper, #footer, .blogPost, #latestPosts, #latestProjects
+{
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+
+#contentWrapper, #footer
+{
+	background-color: #3B3B3B;
+	margin: 0.5em;
+	padding: 1em;
+}
+
+#footer div
+{
+	overflow: visible;
+}

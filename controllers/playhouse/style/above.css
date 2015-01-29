@@ -1,0 +1,32 @@
+#above
+{
+	margin: 0 1em 0 1em;
+}
+
+#above-login, #above-logout, #above-user, #above-register
+{
+	float: left;
+	padding: 0 0.5rem 0 0.5rem;
+}
+
+#above-login, #above-logout
+{
+	border-right: solid #636363;
+}
+
+#above-nukebox
+{
+	float: right;
+}
+
+#above a
+{
+	color: #636363;
+	text-decoration: none;
+}
+
+#above a:hover
+{
+	cursor: pointer;
+	color: #E8E8E8;
+}

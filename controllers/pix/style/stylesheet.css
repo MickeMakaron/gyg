@@ -1,0 +1,140 @@
+/* Define html5 elements
+--------------------------------------------------------
+*/
+header,footer,nav,article,section,
+aside,figure,figcaption{display:block;}
+
+
+/* General */
+html {
+	background-image: url("../img/grid_green.png");
+	background-repeat: repeat;
+	overflow-y: scroll;
+}
+body 
+{
+ /* margin: 8px auto;
+  width: 934px;
+  padding: 8px;
+
+  border: 1px dashed #000000;
+  color: #333333;
+  background: #ffffcc; */
+  font-family: Georgia, serif;
+}
+
+
+
+body#about a#about-,
+body#download a#download-,
+body#game a#game-
+{background:orange; border:3px solid yellow; color: white;}
+
+h1 
+{
+	margin: 0.2em;
+	text-align: center;
+	border-bottom: 2px solid black;
+}
+
+
+body#game{	text-align:center;}
+
+/* end */
+
+/* Header */
+/* the header with navigation to related links */
+/* set width and center page */
+
+header#above{
+	margin: -10px -10px 0 -10px;
+	padding: 0.2em 0 1em 0;
+	background: #ffffcc;
+	background: -webkit-gradient(linear, left, right, from(#ffffcc), to(#cc6666)); 
+	background: -moz-linear-gradient(top,  #ffffcc,  #cc6666);
+	
+	-webkit-border-bottom-right-radius: 30px;
+	-webkit-border-bottom-left-radius: 30px;
+	-moz-border-radius-bottomright: 30px;
+	-moz-border-radius-bottomleft: 30px;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+
+header#top{
+	margin:0 auto; 
+	width: 600px;
+	overflow: hidden;
+}
+
+div#main{
+	background: #ffffcc;
+	margin:auto;
+	width:600px;
+	border:2px solid #656565;
+	font-family: sans-serif;
+	font-weight: 600;
+}
+/* add common padding to main content block */
+div#main{overflow:auto;} /* clearer-fix, see the guide for css20 */
+
+#pix{border:2px solid #656565;}
+
+#nav
+{
+	width: 600px;
+	margin:auto;
+	font-size: 1.5em;
+	text-align: center;
+	
+}
+
+/* Nagivation menu */
+nav.navmenu
+{
+	margin: auto;
+	display: block;
+}
+nav.navmenu a
+{
+	padding: 0em 1em;
+	color: white;
+	background: gray;
+	border: 3px solid silver;
+	font-family: sans-serif;
+	font-weight: 600;
+	text-decoration: none;
+	width: 20%;
+}
+nav.navmenu a:link		{}
+nav.navmenu a:visited	{}
+nav.navmenu a:hover		{color: silver; background: white; border: 3px solid gray;}
+nav.navmenu a:active		{}
+/* end */
+
+/* Footer */
+footer#a{
+	padding: 1em 1em 1em 1em;
+	margin:1em 0 0 0 auto;
+	background: #ffffcc;
+	text-align: left;
+	
+	-webkit-border-bottom-right-radius: 30px;
+	-webkit-border-bottom-left-radius: 30px;
+	-moz-border-radius-bottomright: 30px;
+	-moz-border-radius-bottomleft: 30px;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+
+
+footer#a a {
+  font: italic 0.8em Arial, Helvetica, sans-serif;
+  text-decoration:none;
+  color: #999999;
+}
+footer#a a:link    		{ }
+footer#a a:visited 	{ }
+footer#a a:hover   		{ text-decoration:underline;  color: #333333; }
+footer#a a:active  	{ }
+/* end */

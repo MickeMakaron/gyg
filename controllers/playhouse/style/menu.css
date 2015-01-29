@@ -1,0 +1,65 @@
+
+#menu
+{
+	clear: both;
+}
+
+.latest
+{
+	background-color: #3b3b3b;
+	padding: 0.5em;
+	font-size: 0.75rem;
+}
+
+.latest-create
+{
+	float: right;
+}
+
+.latest table
+{
+	width: 100%;
+}
+
+.latest h2, .latest p
+{
+	margin: 0em;
+	margin-bottom: 0.5em;
+	float: left;
+}
+
+
+@media all and (min-device-width: 600px) 
+{
+	.latest
+	{
+		width: 47%;
+	}
+
+	#latestPosts
+	{
+		float: left;
+		margin-right: 0.5em;
+	}
+
+	#latestProjects
+	{
+		float: right;
+	}
+}
+
+
+@media all and (max-device-width: 600px) 
+{
+	#latestPosts
+	{
+		
+		margin-bottom: 0.5em;
+	}
+}
+
+.latest-created
+{
+	float: right;
+	word-wrap: none;
+}

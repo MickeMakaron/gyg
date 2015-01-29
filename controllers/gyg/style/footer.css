@@ -1,0 +1,8 @@
+#footer
+{
+}
+
+#footer a:link    		{ }
+#footer a:visited 	{ }
+#footer a:hover   		{ text-decoration:underline;  color: #333333; }
+#footer a:active  	{ }

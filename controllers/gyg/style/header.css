@@ -1,0 +1,28 @@
+#header
+{
+	margin:0 auto; 
+	width: 950px;
+	overflow: hidden;
+}
+
+#header div
+{
+	overflow: auto;
+	margin-top: 0.5em;
+	padding: 0 1em 0em 1em;
+
+	
+	background-color: #B3B4BA;
+	
+	-webkit-border-bottom-right-radius: 30px;
+	-moz-border-radius-bottomright: 30px;
+	border-bottom-right-radius: 30px;
+	
+	-webkit-border-top-right-radius: 30px;
+	-moz-border-radius-topright: 30px;
+	border-top-right-radius: 30px;
+	
+	-webkit-box-shadow: inset 0px 0px 33px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 33px -5px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 33px -5px rgba(0,0,0,0.75);
+}

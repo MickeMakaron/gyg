@@ -1,0 +1,23 @@
+#footer
+{
+	text-align: center;
+	color: #636363;
+	font-size: small;
+	overflow: hidden;
+}
+
+#poweredBy img
+{
+	margin-bottom: -0.5em;
+}
+
+#footer a
+{
+	color: #636363;
+	text-decoration: none;
+}
+
+#footer a:link    	{ }
+#footer a:visited 	{ }
+#footer a:hover   	{color: #E8E8E8;}
+#footer a:active  	{ }
