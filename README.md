@@ -1,4 +1,4 @@
-Playhouse
+gyg
 =========
 
-A blog specialized in showcasing and discussing programming projects in the perspective of the development team.
+Modular front-controller framework for easy setup of websites.
